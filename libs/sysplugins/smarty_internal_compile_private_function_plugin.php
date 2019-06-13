@@ -22,7 +22,9 @@ class Smarty_Internal_Compile_Private_Function_Plugin extends Smarty_Internal_Co
      * @var array
      * @see Smarty_Internal_CompileBase
      */
-    public $required_attributes = array();
+    public $required_attributes = array(
+        '_default_short'
+    );
 
     /**
      * Attribute definition: Overwrites base class.
