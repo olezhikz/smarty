@@ -35,7 +35,9 @@ abstract class Smarty_Internal_CompileBase
      *
      * @var array
      */
-    public $shorttag_order = array();
+    public $shorttag_order = array(
+        '_default_short'
+    );
 
     /**
      * Array of names of valid option flags
